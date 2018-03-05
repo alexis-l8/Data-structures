@@ -13,7 +13,7 @@ test('"Whoa! Hi!" is an anagram of "Hi! Whoa!"', () => {
 });
 
 test('"One One" is not an anagram of "Two two two"', () => {
-  expect(anagrams('One One', 'Two two two')).toBeFalsy();
+  expect(anagrams('One One!', 'Two two two')).toBeFalsy();
 });
 
 test('"One one" is not an anagram of "One one c"', () => {
